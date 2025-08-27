@@ -5,10 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-5</title>
+    <!-- tailwind cnd and daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts hind madurai -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header class="bg-white">
+        <nav class="sm:flex sm:justify-between justify-center py-6 w-11/12 mx-auto ">
+            <div class="sm:flex sm:gap-2 text-center items-center  ">
+                <img class=" w-20 mx-auto" src="./assets/logo.png" alt="">
+                <div class="text-[#006747] text-4xl sm:text-2xl font-bold">
+                    <h1>Emergency</h1>
+                    <h1>Service</h1>
+                </div>
+            </div>
+            <div class="flex sm:gap-4 gap-4 items-center justify-between mt-4 ">
+                <button style='font-family:"Inter", sans-serif;'
+                    class="w-1/3 bg-[#ecfff0] text-lg font-normal sm:font-semibold text-white  sm:py-5 sm:px-11 py-2 px-5 sm:rounded-4xl rounded-2xl justify-center gap-2 flex sm:gap-5 cursor-pointer">
+                    <span id="heard-count" class="text-black font-bold">0</span> <img class="sm:w-[30px] w-3"
+                        src="./assets/heart.png" alt="">
+                </button>
+                <button style='font-family:"Inter", sans-serif;'
+                    class="w-1/3 bg-[#ecfff0] text-lg font-normal sm:font-semibold text-white  sm:py-5 sm:px-11 py-2 px-5 sm:rounded-4xl rounded-2xl justify-center gap-2 flex sm:gap-5 cursor-pointer">
+                    <span id="coin-count" class="text-black font-bold">100</span> <img class="w-[30px]"
+                        src="./assets/coin.png" alt="">
+                </button>
+                <button style='font-family:"Inter", sans-serif;'
+                    class="w-1/3 bg-[#29A74A] text-lg font-normal sm:font-semibold text-white  sm:py-5 sm:px-11 py-2 px-5 sm:rounded-4xl rounded-2xl justify-center gap-2 flex sm:gap-5 cursor-pointer"><span
+                        id=" copy-text">0</span>
+                    <span>Copy</span>
+                </button>
 
+            </div>
+        </nav>
+        <section>
+            <section class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-5 ">
+                <div class="text-center">
+                    <img class="sm:w-[92px] w-20 mx-auto" src="./assets/logo-dark.png" alt="">
+                    <h1 class="sm:font-bold font-semibold sm:text-4xl text-xl text-white my-4"
+                        style='font-family: "Hind Madurai", sans-serif;'>Emergency Service
+                        Directory</h1>
+                    <p class="text-white sm:text-xl text-sm font-semibold "
+                        style='font-family: "Hind Madurai", sans-serif;'>
+                        Government Emergency Services at Your Fingertip – A Project by Government of the People’s
+                        Republic of
+                        Bangladesh
+                    </p>
+                </div>
+            </section>
+
+        </section>
+    </header>
 </body>
 
 </html>
